@@ -79,7 +79,7 @@ class _PerfilScreenState extends State<PerfilScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(nombre),
+        title: const Text('Mi Perfil Académico - Nelidad'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         centerTitle: true,
       ),
